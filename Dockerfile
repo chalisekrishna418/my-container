@@ -18,4 +18,4 @@ RUN mkdir /root/.aws/ /root/.ssh/
 
 WORKDIR /root/
 
-ENTRYPOINT /bin/bash
+ENTRYPOINT sleep infinity
